@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mosesbenjamin/node-tests#readme",
   "devDependencies": {
+    "expect": "^1.20.2",
     "mocha": "^8.1.3"
   }
 }
