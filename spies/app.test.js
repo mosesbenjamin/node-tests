@@ -3,6 +3,10 @@ const rewire = require('rewire');
 
 var app = rewire('./app.js');
 
+// Rewire adds the following to our app
+// app.__set.__
+// app.__get.__
+
 describe('App', ()=>{
     var db = {
         saveUser: expect.createSpy()
